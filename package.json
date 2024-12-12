@@ -1,0 +1,41 @@
+{
+  "name": "core",
+  "author": "Rohan Singh",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@thatopen/components": "2.0.8",
+    "@thatopen/components-front": "2.0.8",
+    "@thatopen/fragments": "2.0.4",
+    "@thatopen/ui": "2.0.8",
+    "@thatopen/ui-obc": "^2.0.10",
+    "@types/stats": "0.16.30",
+    "@types/three": "0.160",
+    "apexcharts": "^3.49.1",
+    "gsap": "3.12.5",
+    "primevue": "^4.0.0-rc.1",
+    "stats.js": "0.17.0",
+    "three": "0.160.1",
+    "vue": "3.4.21",
+    "vue-router": "4.3.2",
+    "vue3-apexcharts": "^1.5.3",
+    "web-ifc": "0.0.53"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.2",
+    "@vitejs/plugin-vue": "5.0.4",
+    "autoprefixer": "10.4.19",
+    "daisyui": "4.12.2",
+    "postcss": "8.4.38",
+    "tailwindcss": "3.4.4",
+    "typescript": "5.2.2",
+    "vite": "5.2.0",
+    "vue-tsc": "2.0.6"
+  }
+}

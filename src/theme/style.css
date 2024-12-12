@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow: hidden;
+  overscroll-behavior: none;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+html::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #002022;
+}
+
+.obit-controls-gizmo {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  z-index: 1000;
+  background-color: #FFF0;
+  border-radius: 100%;
+  transition: background-color .15s  linear;
+  cursor: pointer;
+}
+
+.obit-controls-gizmo.dragging, 
+.obit-controls-gizmo:hover {
+  background-color: #FFF3;
+}
+
+.obit-controls-gizmo.inactive {
+  pointer-events: none;
+  background-color: #FFF0  !important;
+}
